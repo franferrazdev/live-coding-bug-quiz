@@ -6,8 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint",
-    "test": "jest"
+    "lint": "eslint"
   },
   "dependencies": {
     "@base-ui/react": "^1.7.0",
@@ -28,6 +27,7 @@
     "@tailwindcss/postcss": "^4",
     "@testing-library/jest-dom": "^7.0.1",
     "@testing-library/react": "^16.3.2",
+    "@testing-library/user-event": "^14.6.5",
     "@types/jest": "^30.0.0",
     "@types/node": "^20",
     "@types/react": "^19",
@@ -36,6 +36,7 @@
     "eslint": "^9",
     "eslint-config-next": "16.3.1",
     "jest": "^30.4.2",
+    "jest-environment-jsdom": "^30.4.1",
     "tailwindcss": "^4",
     "ts-jest": "^29.4.12",
     "typescript": "^5"
