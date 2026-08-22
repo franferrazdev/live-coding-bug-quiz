@@ -7,9 +7,9 @@ describe("Domain Service: Score Calculator", () => {
   });
 
   test("should calculate base points plus speed bonus for Junior difficulty correctly", () => {
-    // Junior: 100 base + (20 segundos * 1) = 120
-    const score = calculateQuestionScore(true, 20, "Junior");
-    expect(score).toBe(120);
+    // Junior: 100 base + (50 segundos * 1) = 150
+    const score = calculateQuestionScore(true, 50, "Junior");
+    expect(score).toBe(150);
   });
 
   test("should apply a heavier multiplier for Senior difficulty speed bonus", () => {

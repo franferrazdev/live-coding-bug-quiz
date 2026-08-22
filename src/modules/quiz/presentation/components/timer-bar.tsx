@@ -6,7 +6,7 @@ interface TimerBarProps {
 }
 
 export function TimerBar({ timeLeft }: TimerBarProps) {
-  const maxTime = 30;
+  const maxTime = 60;
   // Converte os segundos restantes em uma porcentagem de 0 a 100
   const progressValue = (timeLeft / maxTime) * 100;
 

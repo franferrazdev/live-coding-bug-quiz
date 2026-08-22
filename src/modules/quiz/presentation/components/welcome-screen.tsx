@@ -32,7 +32,7 @@ export function WelcomeScreen() {
           Tempo Limite
         </h3>
         <p className="text-xs text-slate-500 dark:text-slate-400">
-          Você tem exatamente 30 segundos para responder cada questão.
+          Você tem exatamente 60 segundos para responder cada questão.
         </p>
       </div>
 

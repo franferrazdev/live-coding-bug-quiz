@@ -170,7 +170,7 @@ export const useQuizGameStore = create<QuizGameState>((set, get) => ({
       questions: [],
       currentQuestionIndex: 0,
       score: 0,
-      timeLeft: 30,
+      timeLeft: 60,
       selectedAnswerIndex: null,
       isAnswered: false,
       gameState: "START",
