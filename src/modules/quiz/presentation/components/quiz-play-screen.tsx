@@ -157,7 +157,10 @@ export function QuizPlayScreen() {
         )}
 
         {isAnswered && (
-          <Button className="bg-blue-600 hover:bg-blue-700 text-white px-6 font-bold text-xs sm:text-sm shadow-md shadow-blue-50/10 rounded-lg animate-in fade-in duration-200">
+          <Button
+            onClick={nextQuestion}
+            className="bg-blue-600 hover:bg-blue-700 text-white px-6 font-bold text-xs sm:text-sm shadow-md shadow-blue-50/10 rounded-lg animate-in fade-in duration-200"
+          >
             {currentQuestionIndex === questions.length - 1
               ? "Ver Resultado Final"
               : "Próxima Questão"}
