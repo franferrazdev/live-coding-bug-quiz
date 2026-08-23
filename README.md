@@ -11,19 +11,19 @@ O **Live Coding Bug Quiz** é um simulador interativo de Code Review focado na i
 ### 💻 Tela Inicial (Regras e Ambientação)
 
 <p align="center">
-  <img src="./public/assets/welcome-screen.png" alt="Tela Inicial do Simulador Técnico" width="600px" style="border-radius: 8px;" />
+  <img src="./public/assets/welcome-screen.png" alt="Tela Inicial do Simulador Técnico" width="450px" style="border-radius: 8px;" />
 </p>
 
 ### 🕹️ Interface do Quiz (Simulador de IDEs)
 
 <p align="center">
-  <img src="./public/assets/quiz-play-screen.png" alt="Interface de Jogo Ativo e Cronômetro" width="600px" style="border-radius: 8px;" />
+  <img src="./public/assets/quiz-play-screen.png" alt="Interface de Jogo Ativo e Cronômetro" width="450px" style="border-radius: 8px;" />
 </p>
 
 ### 🏆 Tela Final (Diagnóstico de Senioridade)
 
 <p align="center">
-  <img src="./public/assets/game-over-screen.png" alt="Resultado Final e Mapeamento de Performance" width="600px" style="border-radius: 8px;" />
+  <img src="./public/assets/game-over-screen.png" alt="Resultado Final e Mapeamento de Performance" width="450px" style="border-radius: 8px;" />
 </p>
 
 ---
