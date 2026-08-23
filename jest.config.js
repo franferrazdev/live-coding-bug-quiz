@@ -10,6 +10,7 @@ const customJestConfig = {
   moduleNameMapper: {
     "^@/(.*)$": "<rootDir>/src/$1",
   },
+  testMatch: ["<rootDir>/src/**/*.test.{ts,tsx}"],
   transformIgnorePatterns: [
     "/node_modules/(?!(@radix-ui|lucide-react|clsx|tailwind-merge)/)",
   ],
