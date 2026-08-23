@@ -48,7 +48,7 @@ export const useQuizGameStore = create<QuizGameState>((set, get) => ({
   questions: [],
   currentQuestionIndex: 0,
   score: 0,
-  timeLeft: 30, // 30 segundos, conforme planejado nos requisitos
+  timeLeft: 60, // 60 segundos, conforme planejado nos requisitos
   selectedAnswerIndex: null,
   isAnswered: false,
   gameState: "START",
@@ -60,7 +60,7 @@ export const useQuizGameStore = create<QuizGameState>((set, get) => ({
       questions: generateBalancedQuiz(liveCodingQuestions),
       currentQuestionIndex: 0,
       score: 0,
-      timeLeft: 30,
+      timeLeft: 60,
       selectedAnswerIndex: null,
       isAnswered: false,
       gameState: "PLAYING",
@@ -121,7 +121,7 @@ export const useQuizGameStore = create<QuizGameState>((set, get) => ({
 
   setTimerInterval: (id) => set({ timerIntervalId: id }),
 
-  // Pula a questão avançando o índice imediatamente sem pontuar e mantendo os 30s livres na próxima
+  // Pula a questão avançando o índice imediatamente sem pontuar e mantendo os 60s livres na próxima
   skipQuestion: () => {
     const { currentQuestionIndex, questions, timerIntervalId } = get();
     if (timerIntervalId) clearInterval(timerIntervalId);
@@ -133,7 +133,7 @@ export const useQuizGameStore = create<QuizGameState>((set, get) => ({
         currentQuestionIndex: nextIndex,
         selectedAnswerIndex: null,
         isAnswered: false,
-        timeLeft: 30,
+        timeLeft: 60,
         timerIntervalId: null,
       });
     } else {
@@ -153,7 +153,7 @@ export const useQuizGameStore = create<QuizGameState>((set, get) => ({
         currentQuestionIndex: nextIndex,
         selectedAnswerIndex: null,
         isAnswered: false,
-        timeLeft: 30,
+        timeLeft: 60,
         timerIntervalId: null,
       });
     } else {
