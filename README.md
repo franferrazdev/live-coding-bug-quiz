@@ -4,7 +4,7 @@ Um simulador interativo de Code Review e testes técnicos focado na identificaç
 
 ## 🔗 Demonstração em Tempo Real / Live Demo
 
-👉 **Acesse o simulador no ar:** [Live Coding Bug Quiz](https://vercel.app) _(Substitua pelo seu link final da Vercel após o build)_
+👉 **Acesse o simulador no ar:** [Live Coding Bug Quiz](https://live-coding-bug-quiz-one.vercel.app/)
 
 ---
 
@@ -13,17 +13,26 @@ Um simulador interativo de Code Review e testes técnicos focado na identificaç
 ### 1. Tela Inicial (Regras e Ambientação) / Welcome Screen
 
 Apresentação das diretrizes do simulado: quantidade de questões, imutabilidade e o funcionamento do botão de pular.
-![Tela Inicial do Simulador Técnico](./public/assets/welcome-screen.png)
+
+<p align="left">
+  <img src="./public/assets/welcome-screen.png" alt="Tela Inicial do Simulador Técnico" width="450px" style="border-radius: 8px;" />
+</p>
 
 ### 2. Interface do Quiz (Simulador de IDEs) / Quiz Environment
 
 Componentização mobile-first estruturada em tons de ardósia e estilo VS Code (Night Owl), rodando com cronômetro atômico e estados via Zustand.
-![Interface de Jogo Ativo](./public/assets/quiz-play-screen.png)
+
+<p align="left">
+  <img src="./public/assets/quiz-play-screen.png" alt="Interface de Jogo Ativo" width="450px" style="border-radius: 8px;" />
+</p>
 
 ### 3. Tela Final (Diagnóstico de Performance) / Final Evaluation Analytics
 
 Mapeamento de acertos e diagnóstico de senioridade baseado no aproveitamento total do candidato.
-![Resultado Final](./public/assets/game-over-screen.png)
+
+<p align="left">
+  <img src="./public/assets/game-over-screen.png" alt="Resultado Final" width="450px" style="border-radius: 8px;" />
+</p>
 
 ---
 
@@ -61,6 +70,36 @@ A cada nova inicialização ou reinício do simulado, o Zustand executa um algor
 # 🐛 Live Coding Bug Quiz · English Version
 
 A high-performance interactive tech-test simulator designed to train and evaluate software engineers' capabilities in identifying and fixing common programming errors (_bugs_) during real-time _Live Coding_ interviews.
+
+## 🔗 Demonstração em Tempo Real / Live Demo
+
+👉 **Acesse o simulador no ar:** [Live Coding Bug Quiz](https://live-coding-bug-quiz-one.vercel.app/)
+
+---
+
+---
+
+## 📸 Visual Presentation
+
+### 1. Welcome Screen (Rules & Onboarding)
+
+<p align="left">
+  <img src="./public/assets/welcome-screen.png" alt="Welcome Screen" width="450px" style="border-radius: 8px;" />
+</p>
+
+### 2. Quiz Environment (IDE Simulator)
+
+<p align="left">
+  <img src="./public/assets/quiz-play-screen.png" alt="Quiz Play Screen" width="450px" style="border-radius: 8px;" />
+</p>
+
+### 3. Final Evaluation Analytics (Seniority Diagnosis)
+
+<p align="left">
+  <img src="./public/assets/game-over-screen.png" alt="Game Over Screen" width="450px" style="border-radius: 8px;" />
+</p>
+
+---
 
 ## 🛠️ Tech Stack and Architecture
 
