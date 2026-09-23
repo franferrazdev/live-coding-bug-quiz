@@ -38,10 +38,10 @@ Mapeamento de acertos e diagnóstico de senioridade baseado no aproveitamento to
 
 ## 🛠️ Tecnologias e Arquitetura do Sistema
 
-- **Framework & Linguagem:** Next.js 14 (App Router) + React 18.3 + TypeScript 5 [src]
-- **Gerenciamento de Estado:** Zustand v5 (Máquina de estados atômica controlando o progresso e o timer) [src]
-- **Estilização & Componentes:** Tailwind CSS v3 + Base UI React + Shadcn Core + Lucide Icons [src]
-- **Esteira de Testes:** Jest (Unitários) + React Testing Library (Integração) + Playwright (End-to-End) [src]
+- **Framework & Linguagem:** Next.js 14 (App Router) + React 18.3 + TypeScript 5
+- **Gerenciamento de Estado:** Zustand v5 (Máquina de estados atômica controlando o progresso e o timer)
+- **Estilização & Componentes:** Tailwind CSS v3 + Base UI React + Shadcn Core + Lucide Icons
+- **Esteira de Testes:** Jest (Unitários) + React Testing Library (Integração) + Playwright (End-to-End)
 
 ---
 
@@ -103,10 +103,10 @@ A high-performance interactive tech-test simulator designed to train and evaluat
 
 ## 🛠️ Tech Stack and Architecture
 
-- **Core Engine:** Next.js 14 (App Router) + React 18.3 + TypeScript 5 [src]
-- **State Management:** Zustand v5 (Decoupled Global State Store) [src]
-- **Styling & Components:** Tailwind CSS v3 + Base UI + Shadcn Core [src]
-- **Test Suite:** Jest + React Testing Library + Playwright E2E [src]
+- **Core Engine:** Next.js 14 (App Router) + React 18.3 + TypeScript 5
+- **State Management:** Zustand v5 (Decoupled Global State Store)
+- **Styling & Components:** Tailwind CSS v3 + Base UI + Shadcn Core
+- **Test Suite:** Jest + React Testing Library + Playwright E2E
 
 ## 🛑 Critical Business Rules and Requirements Implemented
 
