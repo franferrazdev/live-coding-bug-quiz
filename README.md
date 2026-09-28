@@ -15,7 +15,7 @@ Um simulador interativo de Code Review e testes técnicos focado na identificaç
 Apresentação das diretrizes do simulado: quantidade de questões, imutabilidade e o funcionamento do botão de pular.
 
 <p align="left">
-  <img src="./public/assets/welcome-screen.png" alt="Tela Inicial do Simulador Técnico" width="450px" style="border-radius: 8px;" />
+  <img src="./public/assets/welcome-screen.png?v=2" alt="Tela Inicial do Simulador Técnico" width="450px" style="border-radius: 8px;" />
 </p>
 
 ### 2. Interface do Quiz (Simulador de IDEs) / Quiz Environment
@@ -23,7 +23,7 @@ Apresentação das diretrizes do simulado: quantidade de questões, imutabilidad
 Componentização mobile-first estruturada em tons de ardósia e estilo VS Code (Night Owl), rodando com cronômetro atômico e estados via Zustand.
 
 <p align="left">
-  <img src="./public/assets/quiz-play-screen.png" alt="Interface de Jogo Ativo" width="450px" style="border-radius: 8px;" />
+  <img src="./public/assets/quiz-play-screen.png?v=2" alt="Interface de Jogo Ativo" width="450px" style="border-radius: 8px;" />
 </p>
 
 ### 3. Tela Final (Diagnóstico de Performance) / Final Evaluation Analytics
@@ -31,7 +31,7 @@ Componentização mobile-first estruturada em tons de ardósia e estilo VS Code 
 Mapeamento de acertos e diagnóstico de senioridade baseado no aproveitamento total do candidato.
 
 <p align="left">
-  <img src="./public/assets/game-over-screen.png" alt="Resultado Final" width="450px" style="border-radius: 8px;" />
+  <img src="./public/assets/game-over-screen.png?v=2" alt="Resultado Final" width="450px" style="border-radius: 8px;" />
 </p>
 
 ---
@@ -84,19 +84,19 @@ A high-performance interactive tech-test simulator designed to train and evaluat
 ### 1. Welcome Screen (Rules & Onboarding)
 
 <p align="left">
-  <img src="./public/assets/welcome-screen.png" alt="Welcome Screen" width="450px" style="border-radius: 8px;" />
+  <img src="./public/assets/welcome-screen.png?v=2" alt="Welcome Screen" width="450px" style="border-radius: 8px;" />
 </p>
 
 ### 2. Quiz Environment (IDE Simulator)
 
 <p align="left">
-  <img src="./public/assets/quiz-play-screen.png" alt="Quiz Play Screen" width="450px" style="border-radius: 8px;" />
+  <img src="./public/assets/quiz-play-screen.png?v=2" alt="Quiz Play Screen" width="450px" style="border-radius: 8px;" />
 </p>
 
 ### 3. Final Evaluation Analytics (Seniority Diagnosis)
 
 <p align="left">
-  <img src="./public/assets/game-over-screen.png" alt="Game Over Screen" width="450px" style="border-radius: 8px;" />
+  <img src="./public/assets/game-over-screen.png?v=2" alt="Game Over Screen" width="450px" style="border-radius: 8px;" />
 </p>
 
 ---
