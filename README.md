@@ -6,6 +6,36 @@ Um simulador interativo de Code Review e testes técnicos focado na identificaç
 
 👉 **Acesse o simulador no ar:** [Live Coding Bug Quiz](https://live-coding-bug-quiz-one.vercel.app/)
 
+## 🚀 Como Executar o Projeto Localmente
+
+Siga os passos abaixo para clonar e rodar o simulador em sua máquina de desenvolvimento:
+
+1. **Clone o repositório:**
+
+```bash
+git clone https://github.com/franferrazdev/live-coding-bug-quiz.git
+cd live-coding-bug-quiz
+```
+
+2. **Instale as dependências:**
+
+```bash
+pnpm install
+```
+
+3. **Inicie o servidor de desenvolvimento:**
+
+```bash
+pnpm dev
+```
+
+Abra [http://localhost:3000](http://localhost:3000) no seu navegador para ver o resultado.
+
+4. **Execução de Testes:**
+
+- **Testes Unitários (Jest):** `pnpm test` ou `pnpm test:watch`
+- **Testes End-to-End (Playwright):** `npx playwright test`
+
 ---
 
 ## 📸 Demonstração Visual / Visual Presentation
@@ -67,6 +97,26 @@ A cada nova inicialização ou reinício do simulado, o Zustand executa um algor
 
 ---
 
+## 🧠 O Que Aprendi com Este Projeto
+
+A construção deste simulador trouxe aprendizados profundos de arquitetura e confiabilidade de código:
+
+- **Gerenciamento Avançado de Estados Dinâmicos:** A modelagem da máquina de estados com o Zustand v5 permitiu criar um fluxo de execução linear rígido (curva de aprendizado crescente), lidando de forma reativa com travas de clique assíncronas e temporizadores sem sofrer com re-renderizações desnecessárias.
+- **Estratégias Avançadas de Testes Automatizados:** Unificar testes de integração usando React Testing Library com fluxos completos de reprodução de bugs com Playwright E2E expandiu significamente minha visão sobre como blindar interfaces comerciais contra quebras visuais regressivas.
+- **Estruturação de Regras de Negócio Isoladas:** Implementar algoritmos de embaralhamento (_shuffling_) aplicados exclusivamente dentro de bloco de senioridade isolados consolidou práticas sólidas de programação funcional no ecossistema React.
+
+## 🤝 Contribuições são Bem-Vindas!
+
+Contribuições fazem a comunidade open source um lugar incrível para aprender, inspirar e criar. Qualquer contribuição que você fizer será **muito valorizada**.
+
+1. Faça um _Fork_ do projeto.
+2. Crie uma branch para sua Feature (`git checkout -b feature/name-feature-branch`).
+3. Faça o commit de suas alterações (`git commit -m "feat: add..."`).
+4. Envia para a branch remota (`git push origin feature/name-feature-branch`).
+5. Abra um _Pull Request_.
+
+---
+
 # 🐛 Live Coding Bug Quiz · English Version
 
 A high-performance interactive tech-test simulator designed to train and evaluate software engineers' capabilities in identifying and fixing common programming errors (_bugs_) during real-time _Live Coding_ interviews.
@@ -75,7 +125,34 @@ A high-performance interactive tech-test simulator designed to train and evaluat
 
 👉 **Acesse o simulador no ar:** [Live Coding Bug Quiz](https://live-coding-bug-quiz-one.vercel.app/)
 
----
+## 🚀 How to Run Locally
+
+Follow these steps to clone and run the technical simulator on your local workspace:
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/franferrazdev/live-coding-bug-quiz.git
+   cd live-coding-bug-quiz
+   ```
+
+2. **Install dependencies:**
+
+   ```bash
+   pnpm install
+   ```
+
+3. **Run the development environment:**
+
+   ```bash
+   pnpm dev
+   ```
+
+   Open [http://localhost:3000](http://localhost:3000) inside your browser.
+
+4. **Executing Tests:**
+   - **Unit Tests (Jest):** `pnpm test`
+   - **End-to-End Tests (Playwright):** `npx playwright test`
 
 ---
 
@@ -113,3 +190,23 @@ A high-performance interactive tech-test simulator designed to train and evaluat
 1. **Progressive Curve Balance:** The simulator runs exactly **15 structured questions**, sequentially distributed across balanced difficulty layers: Questions 1-5 (Junior), 6-10 (Mid/Pleno), and 11-15 (Senior).
 2. **Isolated Block Shuffling:** Whenever a new quiz session triggers, the Zustand store runs an isolated random shuffle algorithms **strictly inside each difficulty tier boundaries**. The question sequence changes dynamically while maintaining the architectural learning curve stable.
 3. **Answer Immutability Lock:** Once an alternative is chosen, the engine blocks additional selection events (`RN-01`). The interface color states immediately compute success (Green) or failure (Red), rendering a detailed code-review block explaining the bug's root cause.
+
+---
+
+## 🧠 What I Learned
+
+Building this environment provided meaningful engineering insights:
+
+- **Dynamic State Architectures:** Modeling structural constraints with Zustand v5 streamlined handling async component locks and atomic interval timers without triggering unexpected UI lagging or layout updates.
+- **Comprehensive Verification Strategies:** Intertwining React Testing Library with multi-browser validation via Playwright enhanced my technical awareness for isolating real-world edge case bug patterns.
+- **Functional Boundary Implementation:** Writing tailored shuffling routines isolated inside algorithmic seniority structures strengthened my logical mastery of core functional programming paradigms.
+
+## 🤝 Contributions are Welcome!
+
+Contributions make the open-source community an amazing place to learn, inspire, and create. Any contribution you make is **greatly appreciated**.
+
+1. Fork the Project.
+2. Create your Feature Branch (`git checkout -b feature/name-feature-branch`).
+3. Commit your Changes (`git commit -m 'feat: add...'`).
+4. Push to the Branch (`git push origin feature/name-feature-branch`).
+5. Open a Pull Request.
