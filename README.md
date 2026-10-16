@@ -1,5 +1,11 @@
 # 🐛 Live Coding Bug Quiz · Technical Simulator
 
+![Next.js](https://img.shields.io/badge/Next.js-14-blue?style=flat-square)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=flat-square)
+![Zustand](https://img.shields.io/badge/Zustand-v5-purple?style=flat-square)
+![Tests](https://img.shields.io/badge/tests-Jest%20%7C%20Playwright-green?style=flat-square)
+![CI](https://img.shields.io/github/actions/workflow/status/franferrazdev/live-coding-bug-quiz/main.yml?style=flat-square&label=CI%2FCD)
+
 Um simulador interativo de Code Review e testes técnicos focado na identificação e depuração de erros clássicos (bugs) em aplicações React e Next.js. O projeto foi arquitetado sob os princípios de Clean Architecture e projetado para treinar engenheiros de software para etapas de _Live Coding_ de processos seletivos.
 
 ## 🔗 Demonstração em Tempo Real / Live Demo
