@@ -21,7 +21,7 @@ export default defineConfig({
 
   // Configuração do Servidor Automático para o CI/CD
   webServer: {
-    command: "pnpm dev", // Comando que inicia o Next.js
+    command: "npm run dev", // Comando que inicia o Next.js
     url: "http://localhost:3000", // URL que o Playwright vai aguardar responder
     reuseExistingServer: !process.env.CI, // No PC ele usa o servidor aberto; no GitHub ele cria um novo
     timeout: 120 * 1000, // Tempo limite de 2 minutos para o boot do app
