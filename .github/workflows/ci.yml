@@ -1,0 +1,43 @@
+name: Continuous Integration (CI)
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Get pnpm store diretory
+        id: pnpm-store
+        shell: bash
+        run: |
+          echo "store-path=$(pnpm store path)" >> $GITHUB_OUTPUT
+
+      - name: Setup pnpm cache
+        uses: actions/cache@v4
+        with:
+          path: ${{steps.pnpm-store.outputs.store_path}}
+          key: ${{runner.os}}-pnpm-store-${{hashFiles('**/pnpm-lock.yaml')}}
+          restore-keys: |
+            ${{runner.os}}-pnpm-store-
+
+      - name: Install Dependencies
+        run: pnpm test
+
+      - name: Run Unit Tests (Jest)
+        run: npx playwright install --with-deps
+
+      - name: Run End-to-End Tests (Playwright)
+        run: npx playwright test
